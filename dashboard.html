@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/css/mystyle.css">
+
+    <!-- Apex chart -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    
+    <title>Medi Chain!</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="card" id="main-card">
+            <div class="card-body">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/logo.jpg" alt="logo" width="140" height="140">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.php">Dashboard <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="assets/img/profile.png" alt="profile_pic" id="profile_pic" class="rounded-circle" width="50" height="50">
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Profile</a>
+                                <a class="dropdown-item" href="#">Sign out</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- /.navbar -->
+                <!-- Dashboard Form -->
+                <form action="" method="" id="dashboard_period">
+                <div  class="container-fluid" id="selection_1">
+                    <div class="row" id="hospital_top">
+                        <div class="col-md-12">
+                            <img src="assets/img/hospital_org.jpg" alt="hospital-logo" width="60" height="60" class="img-responsive"><span id="hospital_txt">St. James Hospital</span>
+                        </div>
+                    </div>
+                    <div class="row page_heading page_heading_sp" id="page_heading">
+                        <div class="col-md-12">
+                            Dashboard data outcomes
+                        </div>
+                    </div>
+                    
+                    <div class="row page_subheading page_subheading_sp" id="">
+                        <div class="col-md-4">
+                            Dashboard period
+                        </div>
+                    </div>
+                    <div class="row" id="">
+                        <div class="col-md-4">
+                            <p>Select the data period you want to display recommendations for</p>
+                            <ul class="nav nav-fill" id="nav_bg_round">
+                                <li class="nav-item">
+                                    <a class="nav-link" href='javascript:void(0)' onclick='saveperiod("1")'>Tomorrow</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"  href='javascript:void(0)' onclick='saveperiod("2")'>Next 7 days</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"  href='javascript:void(0)' onclick='saveperiod("3")' >Next 30 days</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row page_subheading page_subheading_sp" id="">
+                        <div class="col-md-4">
+                            <p>Conditions</p>
+                            <p class="base_style">Please select the condition/illness/disease you would like to show data for</p>
+                            <select class="select_drop" name="cond_select" id="cond_select" style="width: 70%">
+                                <Option value=""> Select option</option>
+                                <Option value="Covid-19"> Covid-19</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <p>Product</p>
+                            <p class="base_style">Please select the product/medicine/medical equipment  you would like to show data for</p>
+                            <select class="select_drop" name="prod_select" id="prod_select" style=" width: 70%">
+                                <Option value=""> Select option</option>
+                                <Option value="PPE">PPE</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <br/><br/><br/>
+                            <button type="button" id="gen_report"  class="my_btn align-bottom" style="">Generate report &nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                </form>
+                <div class="row">
+                    <div class="col-md-12 mt-3">
+                        <div class="row mt-5 mb-5">
+                            <div class="col-md-4">
+                                &nbsp;
+                            </div>
+                            <div class="col-md-4 noupload_txt text-center">
+                                Generate the report by clicking on the <br/>button above
+                                
+                            </div>
+                            <div class="col-md-4 text-left">
+                                <img src="assets/img/upward_arrow_org.jpg" width="150" height="65">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="assets/img/pg1_org.jpg" width="536" height="405">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    <script src="https://kit.fontawesome.com/92496cd334.js" crossorigin="anonymous"></script>
+    
+    <script>
+        $(document).ready(function() {
+            $(".select_drop").select2()
+            $('#gen_report').click(handleGenReport)
+    
+            $("#nav_bg_round li").on('click', function(){
+                $(this).siblings().removeClass('nav_rad');
+                $(this).addClass('nav_rad')
+            })
+
+        })
+        
+        const form = document.forms[0]
+        let period_val = ''
+
+        const handleGenReport = () => {
+            let cond = form.cond_select.value
+            let prod = form.prod_select.value
+
+            if(cond && prod && period_val) 
+            {
+                window.location.href = "report_dashboard.php?c="+cond+"&p="+prod+"&pd="+period_val;
+                //do something
+                //alert("All values are selected")
+                /*fetch('getReportDashboard', {
+                        method: 'POST',
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            cond,
+                            prod,
+                            period_val
+                        })
+                    })
+                    .then(response => response.json())
+                    .then(res => {
+
+                    })
+                */
+            }
+            else
+                alert("Please select all values of condition, product and period to proceed further")
+         
+        }
+        function saveperiod(period){
+            period_val = period
+            //alert("period:"+period_val)
+            return null
+        }
+
+    </script>
+
+  </body>
+</html>

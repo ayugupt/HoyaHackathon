@@ -1,0 +1,594 @@
+<!doctype html>
+<html lang="en"> 
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/css/doctor_main.css">
+
+    <!-- Apex chart -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://kit.fontawesome.com/92496cd334.js" crossorigin="anonymous"></script>
+    
+    <title>Medi Chain!</title>
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+        <div class="card" id="main-card">
+            <div class="card-body">
+                <div class="row">
+                    <div col="col-md-4">
+                        <ul class="nav nav-fill" id="main_navbar">
+                            <li class="main_navbar_item" id="main_navbar_item">
+                                Back
+                            </li>
+                            <li class="main_navbar_item" id="main_navbar_item">
+                                Home                                    
+                            </li>
+                            <li class="main_navbar_item" id="main_navbar_item">
+                                Supply Chain
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2" style="border: 1px solid red">
+                            <a class="navbar-brand" href="#">
+                                <img src="assets/img/logo.jpg" alt="logo" width="140" height="140">
+                            </a>
+                    </div>
+                    <div>
+                        <div class="col-md-8" style="border: 1px solid red;">
+    Thi is  a text to find the wrapping capability of classes.Thi is  a text to find the wrapping capability of classesThi is  a text to find the wrapping capability of classesThi is  a text to find the wrapping capability of classesThi is  a text to find the wrapping capability of classes
+                        </div>
+                    </div>
+                </div>
+                <!-- Logo And Doctor Name -->
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p class="paitent_report_heading">Patient Report</p>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="nav nav-fill" id="nav_bg_round">
+                                <li class="nav-item">
+                                    Per Day
+                                </li>
+                                <li class="nav-item">
+                                    Per Week                                    
+                                </li>
+                                <li class="nav-item">
+                                    Per Month
+                                </li>
+                            </ul>
+                            <!-- <div class="card" id="days_switch">
+                                <div class="card-body">
+
+                                </div>
+                            </div> -->
+                        </div>
+                        <div class="col-md-5">
+                            <select class="select_drop" name="cond_select" id="cond_select" style="width: 70%">
+                                <Option value=""> Search Paitent</option>
+                                <Option value="Covid-19"> Arnav Mahajan</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card" id="paitent_info_top_left">
+                                <div class="card-body" id="paitent_info_body">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <img src="assets/img/Med-Chain-Dr. Chrono-WOrking/boy.png" alt="" id="paitent_photo">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p id="paitent_name">Arnav Mahajan</p>
+                                                    <p id="paitent_age">19</p>
+                                                    <p id="paitent_illness">Cough</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-7">
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Last Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Next Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Condition : Normal</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <i class="far fa-edit fa-2x"></i>
+                                                </div>
+
+                                                <div class="col-md-9">
+                                                    <div class="card" id="notes_btn_main">
+                                                        <div class="card-body" id="notes_btn_body">
+                                                            Notes
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="card" id="paitent_info_top_middle">
+                                <div class="card-body" id="paitent_info_body">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <img src="assets/img/Med-Chain-Dr. Chrono-WOrking/boy.png" alt="" id="paitent_photo">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p id="paitent_name">Arnav Mahajan</p>
+                                                    <p id="paitent_age">19</p>
+                                                    <p id="paitent_illness">Cough</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-7">
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Last Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Next Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Condition : Normal</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <i class="far fa-edit fa-2x"></i>
+                                                </div>
+
+                                                <div class="col-md-9">
+                                                    <div class="card" id="notes_btn_main">
+                                                        <div class="card-body" id="notes_btn_body">
+                                                            Notes
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card" id="paitent_info_top_right">
+                                <div class="card-body" id="paitent_info_body">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <img src="assets/img/Med-Chain-Dr. Chrono-WOrking/boy.png" alt="" id="paitent_photo">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p id="paitent_name">Arnav Mahajan</p>
+                                                    <p id="paitent_age">19</p>
+                                                    <p id="paitent_illness">Cough</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-7">
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Last Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Next Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Condition : Normal</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <i class="far fa-edit fa-2x"></i>
+                                                </div>
+
+                                                <div class="col-md-9">
+                                                    <div class="card" id="notes_btn_main">
+                                                        <div class="card-body" id="notes_btn_body">
+                                                            Notes
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card" id="paitent_info_middle_left">
+                                <div class="card-body" id="paitent_info_body">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <img src="assets/img/Med-Chain-Dr. Chrono-WOrking/boy.png" alt="" id="paitent_photo">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p id="paitent_name">Arnav Mahajan</p>
+                                                    <p id="paitent_age">19</p>
+                                                    <p id="paitent_illness">Cough</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-7">
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Last Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Next Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Condition : Normal</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <i class="far fa-edit fa-2x"></i>
+                                                </div>
+
+                                                <div class="col-md-9">
+                                                    <div class="card" id="notes_btn_main">
+                                                        <div class="card-body" id="notes_btn_body">
+                                                            Notes
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="card" id="paitent_info_middle_middle">
+                                <div class="card-body" id="paitent_info_body">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <img src="assets/img/Med-Chain-Dr. Chrono-WOrking/boy.png" alt="" id="paitent_photo">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p id="paitent_name">Arnav Mahajan</p>
+                                                    <p id="paitent_age">19</p>
+                                                    <p id="paitent_illness">Cough</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-7">
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Last Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Next Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Condition : Normal</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <i class="far fa-edit fa-2x"></i>
+                                                </div>
+
+                                                <div class="col-md-9">
+                                                    <div class="card" id="notes_btn_main">
+                                                        <div class="card-body" id="notes_btn_body">
+                                                            Notes
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card" id="paitent_info_middle_right">
+                                <div class="card-body" id="paitent_info_body">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <img src="assets/img/Med-Chain-Dr. Chrono-WOrking/boy.png" alt="" id="paitent_photo">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p id="paitent_name">Arnav Mahajan</p>
+                                                    <p id="paitent_age">19</p>
+                                                    <p id="paitent_illness">Cough</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-7">
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Last Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Next Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Condition : Normal</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <i class="far fa-edit fa-2x"></i>
+                                                </div>
+
+                                                <div class="col-md-9">
+                                                    <div class="card" id="notes_btn_main">
+                                                        <div class="card-body" id="notes_btn_body">
+                                                            Notes
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card" id="paitent_info_bottom_left">
+                                <div class="card-body" id="paitent_info_body">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <img src="assets/img/Med-Chain-Dr. Chrono-WOrking/boy.png" alt="" id="paitent_photo">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p id="paitent_name">Arnav Mahajan</p>
+                                                    <p id="paitent_age">19</p>
+                                                    <p id="paitent_illness">Cough</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-7">
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Last Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Next Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Condition : Normal</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <i class="far fa-edit fa-2x"></i>
+                                                </div>
+
+                                                <div class="col-md-9">
+                                                    <div class="card" id="notes_btn_main">
+                                                        <div class="card-body" id="notes_btn_body">
+                                                            Notes
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="card" id="paitent_info_bottom_middle">
+                                <div class="card-body" id="paitent_info_body">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <img src="assets/img/Med-Chain-Dr. Chrono-WOrking/boy.png" alt="" id="paitent_photo">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p id="paitent_name">Arnav Mahajan</p>
+                                                    <p id="paitent_age">19</p>
+                                                    <p id="paitent_illness">Cough</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-7">
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Last Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Next Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Condition : Normal</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <i class="far fa-edit fa-2x"></i>
+                                                </div>
+
+                                                <div class="col-md-9">
+                                                    <div class="card" id="notes_btn_main">
+                                                        <div class="card-body" id="notes_btn_body">
+                                                            Notes
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card" id="paitent_info_bottom_right">
+                                <div class="card-body" id="paitent_info_body">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <img src="assets/img/Med-Chain-Dr. Chrono-WOrking/boy.png" alt="" id="paitent_photo">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p id="paitent_name">Arnav Mahajan</p>
+                                                    <p id="paitent_age">19</p>
+                                                    <p id="paitent_illness">Cough</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-7">
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Last Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Next Visit : 7 Jan 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card" id="last_visit">
+                                                    <div class="card-body" id="last_visit_body">Condition : Normal</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <i class="far fa-edit fa-2x"></i>
+                                                </div>
+
+                                                <div class="col-md-9">
+                                                    <div class="card" id="notes_btn_main">
+                                                        <div class="card-body" id="notes_btn_body">
+                                                            Notes
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
