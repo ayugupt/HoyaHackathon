@@ -1,0 +1,293 @@
+body {
+    background-color: #1b3e5f;
+    font: Montserrat, Sans-Serif ;
+    font-size:16px;
+}
+.flex-container {
+    display: flex;
+    background-color: rgb(230, 235, 242);
+    border-radius: 35px;
+    margin-bottom: 40px;
+    
+  }
+  
+  .flex_txt {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color:rgb(74, 77, 79);
+    font-weight: bold;
+    
+    text-align: center;
+    vertical-align: top ;
+  }
+  .flex_txt1 {
+
+    font-size: 30px;
+    color:rgb(74, 77, 79);
+    font-weight: bold;
+    
+    text-align: center;
+    vertical-align: middle;
+  }
+  .flex_img {
+    font-size: 30px;
+    color:rgb(74, 77, 79);
+    text-align: right;
+  }
+  .flex_space {
+      width: 360px;
+  }
+  .txt_head {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color:rgb(74, 77, 79);
+  }
+
+  .page_subheading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #12283f;
+}
+#nav_bg_round {
+    background-color: #f2f6f8;
+    border-radius: 28px;
+    margin-bottom: 18px;
+}
+.nav_rad {
+    color: #ff5678;
+    border-radius: 20px;
+    background-color: #1b3e5f;
+    font-weight: bold;
+}
+.nav_rad>a:link {
+    color: #fff;
+}
+a:hover {
+    color: #fff;
+}
+#paitent_name, #paitent_age, #paitent_illness{
+    margin: 8px 0 0 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+
+}
+
+#last_visit{
+    width: 200px;
+    height: 26px;
+    padding-top: 6px;
+    margin-top: 6px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#last_visit_body{
+    margin-top: -17px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#notes_btn_main{
+    width: 100px;
+    height: 26px;
+    margin: 6px 30.4px 2px 5px;
+    padding: 4px 22px 5px 21px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#notes_btn_body{
+    margin: -20px 0px 0px -20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+.opt_row {
+    background-color: #fff;
+    margin: 6px;
+    border-radius: 10px;;
+}
+
+#patient_info{
+    width: 348.4px;
+    height: 228.3px;
+    padding: 21px 0 0 24px;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+
+#patient_card{
+    width: 367.4px;
+    height: 242.3px;
+    margin: 145px 15.4px 21.5px 126px;
+    padding: 14px 0 0 19px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#main_navbar{
+    width: 554px;
+    height: 55px;
+    margin: 0 21px 58px 0;
+    padding: 5px 5.9px 5px 20px;
+    border-radius: 28px;
+    background-color: #1b3e5f;
+}
+
+#main_navbar_item{
+    color: #ffffff;
+    text-align: left;
+    font-size: 18px;
+    margin: 10px 65px 0 0;
+    font-family: Montserrat;
+    font-weight: bold;
+    
+}
+
+#report_list{
+    width: 966px;
+    height: 150px;
+    margin: 20.7px 4.2px 37.4px 20px;
+    padding: 25px 32px 18px 39px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#appointments_list{
+    width: 966px;
+    height: 524px;
+    margin: 17px 4.2px 29px 20px;
+    padding: 15px 18.9px 11px 39.1px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#appointment_card{
+    
+    margin: 17px 4.2px 29px 20px;
+    padding: 15px 18.9px 11px 39.1px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+.appointment_paitent_info{
+    
+    margin: 25.6px 0 28.7px;
+    padding: 16.8px 23.2px 16.8px 19.1px;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+#paitent_body{
+    width: 100%;
+    height: 1034px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+.card-img-top{
+    width: 100%;
+}
+
+#heart-scan {
+    width: 100%;
+    height: 497px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#predictive-analysis-heading{
+    width: 389px;
+    height: 44px;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1b3e5f;
+}
+
+#analysis_code{
+    width: 100%;
+    height: 58px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+    margin-top: 10px;
+}
+
+#analysis_code_info{
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+#supply_chain_heading, #patient_log_heading{
+    width: 265px;
+    height: 39px;
+    margin: 29px 130.1px 25.3px 124px;
+    font-family: Montserrat;
+    font-size: 36px;
+    color: #12283f;
+}
+
+#supply_chain, #patient_log{
+    width: 471.1px;
+    height: 312.7px;
+    margin: 25.3px 39.3px 0 8.8px;
+    padding: 16.1px 15.1px 15.1px 19.1px;
+    border-radius: 30px;
+    background-color: #e5ecf1
+}
+
+#supply_chain_body, #patient_log_body{
+    width: 436.8px;
+    height: 281.5px;
+    padding: 15.6px 35.8px 23.9px 47.1px;
+    border-radius: 30px;
+    background-color: #ffffff;
+
+}
+
+#supply_chain_picture, #patient_log_picture{
+    width: 155px;
+    height: 157px;
+    margin: 0 118px 18px 81px;
+}
+
+.supply_chain_btn, .patient_log_btn{
+    width: 344px;
+    height: 61px;
+    margin: 18px 10px 6px 0;
+    border-radius: 30px;
+    background-color: #1b3e5f;
+    font-size: 20px;
+    padding-top: 13px;
+    text-align: center;
+}

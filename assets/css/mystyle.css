@@ -1,0 +1,188 @@
+body {
+    background-color: #1b3e5f;
+    font: Montserrat, Sans-Serif ;
+    font-size:16px;
+}
+.card {
+    margin-top:40px;  
+    border-radius:  15px; 
+}
+#main-card {
+    margin-top: 20px;
+}
+#profile_pic {
+    border: 4px solid #c64d53;
+}
+#hospital_top{
+    margin-top: 40px;
+    margin-left: 5px;
+}
+#hospital_txt {
+    font-size: 34px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #12283f;
+}
+#hospital_small_txt {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #12283f;
+}
+.page_heading_sp {
+    margin-top: 100px;
+}
+.page_heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #12283f;
+}
+.page_subheading_sp {
+    margin-top: 38px;
+}
+.page_subheading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #12283f;
+}
+#nav_bg_round {
+    background-color: #f2f6f8;
+    border-radius: 28px;
+}
+.nav_rad {
+    color: #ff5678;
+    border-radius: 20px;
+    background-color: #1b3e5f;
+    font-weight: bold;
+}
+.nav_rad>a:link {
+    color: #fff;
+}
+a:hover {
+    color: #fff;
+}
+.base_style {
+    font: Montserrat, Sans-Serif ;
+    font-size:16px;
+    font-weight: normal;
+    color: #000;
+}
+.base_bold_style {
+    font: Montserrat, Sans-Serif ;
+    font-size:16px;
+    font-weight: bold;
+    color: #000;
+}
+#predictive_analytic_card_new {
+    background-color:#1b3e5f; 
+    margin:30px;padding: 20px; 
+    border-radius:10px; 
+    color: #fff; 
+    font-size: 20px;
+    font-weight: bold;
+}
+.card_bg_color {
+    background-color:#f2f6f8;
+}
+.product_info_border {
+    border: 2px dashed #95b1c7;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+.alert_txt {
+    font-size: 18px;
+    font-weight: bold;
+    color: #12283f;
+}
+.upload_txt {
+    margin-right: 50px;
+    text-align: left;
+}
+.upload_link {
+    background-color: #c64d53; 
+    color: #fff; 
+    border-radius: 20px; 
+    width: 200px;
+    text-align: center;
+}
+.my_btn {
+    background-color: #c64d53;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+}
+.my_btn_edit {
+    background-color:#fff; 
+    color:#f00;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+}
+
+.my_btn1 {
+    background-color: #00654f;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+}
+.noupload_txt {
+    color: #95b1c7;
+    font-size: 20px;
+    font-weight: bold;
+}
+[class^='select2'] {
+    border-radius: 6px !important;
+    font-weight: normal;
+    font-size: 20px;
+  }
+#inventory_img {
+    margin: 50px;
+    vertical-align: middle;
+}
+.dataoutcome {
+    background-color: #12283f;
+    text-align: center;
+    margin:20px;
+    padding:20px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+.data_txt {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.cond_header {
+    font-size: 20px;
+}
+.cond_body {
+    font-size: 60px;
+}
+.recommend_txt {
+    font-size: 18px;
+    font-weight: bold;
+    color: #12283f;
+}
+.recommend_img {
+    border: 3px solid #000;
+    padding: 4px;
+
+}

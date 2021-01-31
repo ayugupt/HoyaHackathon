@@ -1,0 +1,304 @@
+body {
+    background-color: #1b3e5f;
+    font: Montserrat, Sans-Serif ;
+    font-size:16px;
+}
+
+.card {
+    margin-top:40px;  
+    border-radius:  15px; 
+}
+
+#main-card {
+    margin-top: 20px;
+}
+
+#doctor_textfield{
+    border-radius: 45px;
+    background-color: #e5ecf1;
+}
+
+#doctor_name_col{
+    border-radius: 25px;
+    background-color: #e5ecf1;
+}
+#doctor_txt{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1b3e5f;
+    border: 1px solid red;
+    left:left;
+}
+.doctor_sub_txt{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1b3e5f;
+    margin-bottom: 20px;
+    border: 1px solid red;
+}
+#doctor_logo {
+    margin-bottom: 10px;
+    margin-left: 550px;
+}
+.paitent_report_heading{
+    margin: -10px 0px 0px 0px;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #12283f;
+}
+
+.paitent_report_heading1{
+    color: #f00
+}
+
+#nav_bg_round {
+    background-color: #f2f6f8;
+    border-radius: 28px;
+}
+
+.nav-item{
+    width: 69px;
+    height: 10px;
+    margin: 9px 33px 11px 33px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1b3e5f;
+}
+
+#paitent_info_top_left{
+    width: 367.4px;
+    height: 242.3px;
+    margin: 145px 15.4px 21.5px 126px;
+    padding: 14px 0 0 19px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#paitent_info_top_middle{
+    width: 367.4px;
+    height: 242.3px;
+    margin: 145px 15.4px 21.5px 70px;
+    padding: 14px 0 0 19px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#paitent_info_top_right{
+    width: 367.4px;
+    height: 242.3px;
+    margin: 145px 15.4px 21.5px 15px;
+    padding: 14px 0 0 19px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#paitent_info_middle_left{
+    width: 367.4px;
+    height: 242.3px;
+    margin: 21.5px 15.4px 21.5px 126px;
+    padding: 14px 0 0 19px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#paitent_info_middle_middle{
+    width: 367.4px;
+    height: 242.3px;
+    margin: 21.5px 15.4px 21.5px 70px;
+    padding: 14px 0 0 19px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#paitent_info_middle_right{
+    width: 367.4px;
+    height: 242.3px;
+    margin: 21.5px 15.4px 21.5px 15px;
+    padding: 14px 0 0 19px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#paitent_info_bottom_left{
+    width: 367.4px;
+    height: 242.3px;
+    margin: 21.5px 15.4px 21.5px 126px;
+    padding: 14px 0 0 19px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#paitent_info_bottom_middle{
+    width: 367.4px;
+    height: 242.3px;
+    margin: 21.5px 15.4px 21.5px 70px;
+    padding: 14px 0 0 19px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#paitent_info_bottom_right{
+    width: 367.4px;
+    height: 242.3px;
+    margin: 21.5px 15.4px 21.5px 15px;
+    padding: 14px 0 0 19px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#paitent_info_body{
+    width: 348.4px;
+    height: 228.3px;
+    padding: 21px 0 0 24px;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+
+#paitent_photo{
+    width: 122px;
+    height: 131px;
+    margin: 3px 28px 0 0;
+}
+
+#paitent_name{
+    margin: 8px 0 0 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+#paitent_age{
+    margin: 0px 0 0 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;  
+}
+
+#paitent_illness{
+    margin: 0px 0 0 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000; 
+}
+
+#last_visit{
+    width: 174.4px;
+    height: 26px;
+    margin: 0 0 16px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#last_visit_body{
+    margin-top: -17px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#notes_btn_main{
+    width: 100px;
+    height: 26px;
+    margin: 6px 30.4px 2px 5px;
+    padding: 4px 22px 5px 21px;
+    border-radius: 30px;
+    background-color: #e5ecf1;
+}
+
+#notes_btn_body{
+    margin: -20px 0px 0px -20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+#main_navbar{
+    width: 414px;
+    height: 55px;
+    margin: 0 21px 58px 0;
+    padding: 5px 5.9px 5px 20px;
+    border-radius: 28px;
+    background-color: #1b3e5f;
+}
+
+#main_navbar_item{
+    color: #ffffff;
+    text-align: left;
+    font-size: 18px;
+    margin: 10px 65px 0 0;
+    font-family: Montserrat;
+    font-weight: bold;
+    
+}
+
+.banner p {
+    font-family: "Gentium Basic";
+    font-size: 19px;
+    text-align: center;
+    color: #aaa;
+    margin-top: -10px;
+    display: block;
+   }
+  .banner img {
+    float: right; 
+    
+   }
+   .banner span {
+    padding-top: 50px;
+    font-size: 17px;
+    vertical-align:top;
+   }
+    .banner .ban2 span {
+    padding-top: 50px;
+    font-size: 17px;
+    vertical-align:bottom;
+   }
